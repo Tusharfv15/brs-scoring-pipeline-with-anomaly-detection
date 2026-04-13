@@ -169,6 +169,8 @@ The business category from `places_json/` is passed to the model as context — 
 ---
 
 ## Stage 3 — BRS Scoring (`scorer.py`)
+<img width="2967" height="2498" alt="image" src="https://github.com/user-attachments/assets/90c5c25d-0f91-482d-b09b-f80ca447e6fe" />
+
 
 Reads the cleaned, sentiment-scored Excel and the Places API JSON, computes four scoring modules, and writes a score JSON to `outputs/`.
 
@@ -259,6 +261,7 @@ Contains the final score, full M1–M4 breakdown, detailed sub-scores, and revie
 ---
 
 ## Stage 4 — Anomaly Detection (`anomaly_agent.py`)
+<img width="3603" height="2936" alt="image" src="https://github.com/user-attachments/assets/0c387927-8acf-4509-ae6a-253d88f19f33" />
 
 Runs an LLM agent (OpenAI function calling) that reasons over the score JSON and the raw review DataFrame, calls analysis tools in a loop, and produces a structured credit risk narrative with an HTML report.
 
