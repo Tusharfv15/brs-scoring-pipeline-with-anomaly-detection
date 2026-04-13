@@ -4,6 +4,20 @@ A four-stage pipeline that scores a small business using publicly available Goog
 
 ---
 
+## Table of Contents
+
+- [File Layout](#file-layout)
+- [Setup](#setup)
+- [Pipeline Overview](#pipeline-overview)
+- [Stage 1 — Clean & Fetch](#stage-1--clean--fetch-sort_reviews_by_datepy)
+- [Stage 2 — Sentiment Scoring](#stage-2--sentiment-scoring-sentiment_scorerpy)
+- [Stage 3 — BRS Scoring](#stage-3--brs-scoring-scorerpy)
+- [Stage 4 — Anomaly Detection](#stage-4--anomaly-detection-anomaly_agentpy)
+- [Running the Full Pipeline](#running-the-full-pipeline)
+- [Tech Stack](#tech-stack)
+
+---
+
 ## File Layout
 
 ```
