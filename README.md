@@ -287,3 +287,20 @@ python sentiment_scorer.py     excel/<stem>.xlsx
 python scorer.py               excel/<stem>.xlsx
 python anomaly_agent.py        excel/<stem>.xlsx
 ```
+
+---
+
+## Tech Stack
+
+| Layer | Library / Service |
+|---|---|
+| **Language** | Python 3.11 |
+| **LLM — Anomaly Agent** | OpenAI `gpt-5.1-2025-11-13` via function calling |
+| **LLM — Sentiment Scoring** | OpenAI `gpt-4o-mini` via structured outputs (Pydantic) |
+| **Business Metadata** | Google Places API (New) — text search + place details |
+| **Data handling** | pandas, openpyxl |
+| **ML / NLP** | scikit-learn (TF-IDF, cosine similarity) |
+| **Charting** | matplotlib, seaborn |
+| **HTTP** | requests |
+| **Env / Config** | python-dotenv |
+| **Data validation** | Pydantic v2 |
