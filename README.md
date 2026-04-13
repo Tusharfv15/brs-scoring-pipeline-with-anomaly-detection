@@ -19,6 +19,41 @@ tools/                          ← anomaly detection tool modules (A1–A4 + ru
 
 ---
 
+## Setup
+
+**1. Create and activate a virtual environment**
+
+```bash
+python -m venv .venv
+
+# Windows
+.venv\Scripts\activate
+
+# macOS / Linux
+source .venv/bin/activate
+```
+
+**2. Install dependencies**
+
+```bash
+pip install -r requirements.txt
+```
+
+**3. Configure environment variables**
+
+```bash
+cp .env.example .env
+```
+
+Open `.env` and fill in your keys:
+
+| Variable | Required by | Notes |
+|---|---|---|
+| `OPENAI_API_KEY` | `sentiment_scorer.py`, `anomaly_agent.py` | Always required |
+| `GOOGLE_MAPS_API_KEY` | `sort_reviews_by_date.py` | Can be skipped with `--skip-fetch` if `places_json/` files already exist |
+
+---
+
 ## Pipeline Overview
 
 ```

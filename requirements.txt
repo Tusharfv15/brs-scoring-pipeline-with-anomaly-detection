@@ -1,0 +1,9 @@
+openai
+pandas
+openpyxl
+scikit-learn
+matplotlib
+seaborn
+requests
+python-dotenv
+pydantic
