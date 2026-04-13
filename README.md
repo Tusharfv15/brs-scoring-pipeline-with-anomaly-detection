@@ -161,6 +161,8 @@ python sentiment_scorer.py excel/<stem>.xlsx --force    # re-score even if colum
 | `+1` | Positive — reviewer is satisfied, praises the business |
 | `0` | Neutral, mixed, unclear, or off-topic |
 | `-1` | Negative — reviewer is dissatisfied, mentions problems |
+<img width="1398" height="361" alt="image" src="https://github.com/user-attachments/assets/14bab311-26ed-47fd-98bc-490b4a535afa" />
+
 
 The business category from `places_json/` is passed to the model as context — it affects how ambiguous phrases like "decent prices" are scored relative to category norms.
 
@@ -247,6 +249,9 @@ Website reachability is checked live via HTTP GET:
 | Phone number present | +3 |
 | Address present | +2 |
 
+<img width="1604" height="603" alt="image" src="https://github.com/user-attachments/assets/fdf6a694-0e41-4651-a2f5-41d6a3cef2a6" />
+
+
 ### Output — `outputs/<stem>_score.json`
 
 Contains the final score, full M1–M4 breakdown, detailed sub-scores, and review stats (sentiment counts + timeline buckets). This file is the direct input to Stage 4.
@@ -315,6 +320,7 @@ The agent writes and executes arbitrary Python code against the live data. Avail
 Pre-injected libraries: `pd`, `np`, `plt`, `sns`, `sklearn`, `TfidfVectorizer`, `cosine_similarity`, `difflib`, `json`, `re`, `math`, `collections`, `itertools`, `Path`.
 
 `import` and `from X import Y` are both blocked. stdout is captured and returned to the agent, capped at 8,000 characters.
+<img width="6789" height="1951" alt="image" src="https://github.com/user-attachments/assets/2f0bc1df-acc2-453c-9e70-eb5c034ac3a8" />
 
 ### Output Files
 
