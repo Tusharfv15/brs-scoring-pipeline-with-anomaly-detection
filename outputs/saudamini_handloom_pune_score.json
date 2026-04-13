@@ -1,0 +1,1188 @@
+{
+  "business": "Saudamini Handloom",
+  "location": "Good Luck, Fergusson College Rd, near Cafe, Deccan Gymkhana, Pune, Maharashtra 411004, India",
+  "category": "handloom",
+  "final_score": 58.96,
+  "breakdown": {
+    "M1": {
+      "score": 23.46,
+      "max": 55
+    },
+    "M2": {
+      "score": 15.5,
+      "max": 20
+    },
+    "M3": {
+      "score": 15.0,
+      "max": 15
+    },
+    "M4": {
+      "score": 5.0,
+      "max": 10
+    }
+  },
+  "M1_detail": {
+    "lambda": 0.5,
+    "mean_score_i": 0.2133,
+    "total_reviews": 140,
+    "per_review": [
+      {
+        "name": "row_0",
+        "review_timeline": "a month ago",
+        "w_credibility": 0.5,
+        "w_recency": 1.0,
+        "sentiment": 1,
+        "score_i": 0.5
+      },
+      {
+        "name": "row_1",
+        "review_timeline": "a month ago",
+        "w_credibility": 0.5,
+        "w_recency": 1.0,
+        "sentiment": 0,
+        "score_i": 0.0
+      },
+      {
+        "name": "row_2",
+        "review_timeline": "a month ago",
+        "w_credibility": 0.3333,
+        "w_recency": 1.0,
+        "sentiment": 1,
+        "score_i": 0.3333
+      },
+      {
+        "name": "row_3",
+        "review_timeline": "2 months ago",
+        "w_credibility": 1.0,
+        "w_recency": 1.0,
+        "sentiment": 1,
+        "score_i": 1.0
+      },
+      {
+        "name": "row_4",
+        "review_timeline": "2 months ago",
+        "w_credibility": 1.0,
+        "w_recency": 1.0,
+        "sentiment": -1,
+        "score_i": -1.0
+      },
+      {
+        "name": "row_5",
+        "review_timeline": "2 months ago",
+        "w_credibility": 1.0,
+        "w_recency": 1.0,
+        "sentiment": 1,
+        "score_i": 1.0
+      },
+      {
+        "name": "row_6",
+        "review_timeline": "2 months ago",
+        "w_credibility": 0.5,
+        "w_recency": 1.0,
+        "sentiment": 1,
+        "score_i": 0.5
+      },
+      {
+        "name": "row_7",
+        "review_timeline": "2 months ago",
+        "w_credibility": 0.3333,
+        "w_recency": 1.0,
+        "sentiment": -1,
+        "score_i": -0.3333
+      },
+      {
+        "name": "row_8",
+        "review_timeline": "3 months ago",
+        "w_credibility": 0.5,
+        "w_recency": 1.0,
+        "sentiment": 1,
+        "score_i": 0.5
+      },
+      {
+        "name": "row_9",
+        "review_timeline": "3 months ago",
+        "w_credibility": 0.5,
+        "w_recency": 1.0,
+        "sentiment": 1,
+        "score_i": 0.5
+      },
+      {
+        "name": "row_10",
+        "review_timeline": "3 months ago",
+        "w_credibility": 0.5,
+        "w_recency": 1.0,
+        "sentiment": 1,
+        "score_i": 0.5
+      },
+      {
+        "name": "row_11",
+        "review_timeline": "Edited 3 months ago",
+        "w_credibility": 0.8333,
+        "w_recency": 1.0,
+        "sentiment": -1,
+        "score_i": -0.8333
+      },
+      {
+        "name": "row_12",
+        "review_timeline": "3 months ago",
+        "w_credibility": 0.6667,
+        "w_recency": 1.0,
+        "sentiment": 1,
+        "score_i": 0.6667
+      },
+      {
+        "name": "row_13",
+        "review_timeline": "3 months ago",
+        "w_credibility": 1.0,
+        "w_recency": 1.0,
+        "sentiment": 1,
+        "score_i": 1.0
+      },
+      {
+        "name": "row_14",
+        "review_timeline": "3 months ago",
+        "w_credibility": 0.5,
+        "w_recency": 1.0,
+        "sentiment": 1,
+        "score_i": 0.5
+      },
+      {
+        "name": "row_15",
+        "review_timeline": "3 months ago",
+        "w_credibility": 0.5,
+        "w_recency": 1.0,
+        "sentiment": 1,
+        "score_i": 0.5
+      },
+      {
+        "name": "row_16",
+        "review_timeline": "3 months ago",
+        "w_credibility": 0.3333,
+        "w_recency": 1.0,
+        "sentiment": 1,
+        "score_i": 0.3333
+      },
+      {
+        "name": "row_17",
+        "review_timeline": "4 months ago",
+        "w_credibility": 0.5,
+        "w_recency": 0.85,
+        "sentiment": 1,
+        "score_i": 0.425
+      },
+      {
+        "name": "row_18",
+        "review_timeline": "4 months ago",
+        "w_credibility": 0.3333,
+        "w_recency": 0.85,
+        "sentiment": 1,
+        "score_i": 0.2833
+      },
+      {
+        "name": "row_19",
+        "review_timeline": "4 months ago",
+        "w_credibility": 0.3333,
+        "w_recency": 0.85,
+        "sentiment": -1,
+        "score_i": -0.2833
+      },
+      {
+        "name": "row_20",
+        "review_timeline": "5 months ago",
+        "w_credibility": 0.8333,
+        "w_recency": 0.85,
+        "sentiment": 1,
+        "score_i": 0.7083
+      },
+      {
+        "name": "row_21",
+        "review_timeline": "5 months ago",
+        "w_credibility": 0.3333,
+        "w_recency": 0.85,
+        "sentiment": 1,
+        "score_i": 0.2833
+      },
+      {
+        "name": "row_22",
+        "review_timeline": "5 months ago",
+        "w_credibility": 0.5,
+        "w_recency": 0.85,
+        "sentiment": 1,
+        "score_i": 0.425
+      },
+      {
+        "name": "row_23",
+        "review_timeline": "5 months ago",
+        "w_credibility": 0.3333,
+        "w_recency": 0.85,
+        "sentiment": 1,
+        "score_i": 0.2833
+      },
+      {
+        "name": "row_24",
+        "review_timeline": "5 months ago",
+        "w_credibility": 0.3333,
+        "w_recency": 0.85,
+        "sentiment": 1,
+        "score_i": 0.2833
+      },
+      {
+        "name": "row_25",
+        "review_timeline": "Edited 5 months ago",
+        "w_credibility": 0.6667,
+        "w_recency": 0.85,
+        "sentiment": 1,
+        "score_i": 0.5667
+      },
+      {
+        "name": "row_26",
+        "review_timeline": "5 months ago",
+        "w_credibility": 0.8333,
+        "w_recency": 0.85,
+        "sentiment": -1,
+        "score_i": -0.7083
+      },
+      {
+        "name": "row_27",
+        "review_timeline": "5 months ago",
+        "w_credibility": 0.3333,
+        "w_recency": 0.85,
+        "sentiment": 1,
+        "score_i": 0.2833
+      },
+      {
+        "name": "row_28",
+        "review_timeline": "6 months ago",
+        "w_credibility": 0.5,
+        "w_recency": 0.85,
+        "sentiment": 1,
+        "score_i": 0.425
+      },
+      {
+        "name": "row_29",
+        "review_timeline": "6 months ago",
+        "w_credibility": 0.3333,
+        "w_recency": 0.85,
+        "sentiment": -1,
+        "score_i": -0.2833
+      },
+      {
+        "name": "row_30",
+        "review_timeline": "6 months ago",
+        "w_credibility": 0.3333,
+        "w_recency": 0.85,
+        "sentiment": -1,
+        "score_i": -0.2833
+      },
+      {
+        "name": "row_31",
+        "review_timeline": "6 months ago",
+        "w_credibility": 0.6667,
+        "w_recency": 0.85,
+        "sentiment": 1,
+        "score_i": 0.5667
+      },
+      {
+        "name": "row_32",
+        "review_timeline": "6 months ago",
+        "w_credibility": 0.3333,
+        "w_recency": 0.85,
+        "sentiment": 1,
+        "score_i": 0.2833
+      },
+      {
+        "name": "row_33",
+        "review_timeline": "6 months ago",
+        "w_credibility": 0.3333,
+        "w_recency": 0.85,
+        "sentiment": 1,
+        "score_i": 0.2833
+      },
+      {
+        "name": "row_34",
+        "review_timeline": "8 months ago",
+        "w_credibility": 0.5,
+        "w_recency": 0.85,
+        "sentiment": 1,
+        "score_i": 0.425
+      },
+      {
+        "name": "row_35",
+        "review_timeline": "8 months ago",
+        "w_credibility": 0.3333,
+        "w_recency": 0.85,
+        "sentiment": 1,
+        "score_i": 0.2833
+      },
+      {
+        "name": "row_36",
+        "review_timeline": "8 months ago",
+        "w_credibility": 0.3333,
+        "w_recency": 0.85,
+        "sentiment": 1,
+        "score_i": 0.2833
+      },
+      {
+        "name": "row_37",
+        "review_timeline": "8 months ago",
+        "w_credibility": 0.6667,
+        "w_recency": 0.85,
+        "sentiment": -1,
+        "score_i": -0.5667
+      },
+      {
+        "name": "row_38",
+        "review_timeline": "8 months ago",
+        "w_credibility": 1.0,
+        "w_recency": 0.85,
+        "sentiment": 1,
+        "score_i": 0.85
+      },
+      {
+        "name": "row_39",
+        "review_timeline": "8 months ago",
+        "w_credibility": 0.6667,
+        "w_recency": 0.85,
+        "sentiment": 1,
+        "score_i": 0.5667
+      },
+      {
+        "name": "row_40",
+        "review_timeline": "8 months ago",
+        "w_credibility": 0.3333,
+        "w_recency": 0.85,
+        "sentiment": 1,
+        "score_i": 0.2833
+      },
+      {
+        "name": "row_41",
+        "review_timeline": "8 months ago",
+        "w_credibility": 0.3333,
+        "w_recency": 0.85,
+        "sentiment": 1,
+        "score_i": 0.2833
+      },
+      {
+        "name": "row_42",
+        "review_timeline": "8 months ago",
+        "w_credibility": 0.6667,
+        "w_recency": 0.85,
+        "sentiment": 1,
+        "score_i": 0.5667
+      },
+      {
+        "name": "row_43",
+        "review_timeline": "8 months ago",
+        "w_credibility": 0.3333,
+        "w_recency": 0.85,
+        "sentiment": 1,
+        "score_i": 0.2833
+      },
+      {
+        "name": "row_44",
+        "review_timeline": "8 months ago",
+        "w_credibility": 0.6667,
+        "w_recency": 0.85,
+        "sentiment": -1,
+        "score_i": -0.5667
+      },
+      {
+        "name": "row_45",
+        "review_timeline": "9 months ago",
+        "w_credibility": 0.3333,
+        "w_recency": 0.85,
+        "sentiment": 1,
+        "score_i": 0.2833
+      },
+      {
+        "name": "row_46",
+        "review_timeline": "10 months ago",
+        "w_credibility": 0.6667,
+        "w_recency": 0.85,
+        "sentiment": 1,
+        "score_i": 0.5667
+      },
+      {
+        "name": "row_47",
+        "review_timeline": "10 months ago",
+        "w_credibility": 0.6667,
+        "w_recency": 0.85,
+        "sentiment": 1,
+        "score_i": 0.5667
+      },
+      {
+        "name": "row_48",
+        "review_timeline": "11 months ago",
+        "w_credibility": 1.0,
+        "w_recency": 0.85,
+        "sentiment": -1,
+        "score_i": -0.85
+      },
+      {
+        "name": "row_49",
+        "review_timeline": "a year ago",
+        "w_credibility": 0.6667,
+        "w_recency": 0.85,
+        "sentiment": 1,
+        "score_i": 0.5667
+      },
+      {
+        "name": "row_50",
+        "review_timeline": "a year ago",
+        "w_credibility": 0.3333,
+        "w_recency": 0.85,
+        "sentiment": 1,
+        "score_i": 0.2833
+      },
+      {
+        "name": "row_51",
+        "review_timeline": "a year ago",
+        "w_credibility": 1.0,
+        "w_recency": 0.85,
+        "sentiment": -1,
+        "score_i": -0.85
+      },
+      {
+        "name": "row_52",
+        "review_timeline": "a year ago",
+        "w_credibility": 1.0,
+        "w_recency": 0.85,
+        "sentiment": 1,
+        "score_i": 0.85
+      },
+      {
+        "name": "row_53",
+        "review_timeline": "a year ago",
+        "w_credibility": 0.3333,
+        "w_recency": 0.85,
+        "sentiment": 1,
+        "score_i": 0.2833
+      },
+      {
+        "name": "row_54",
+        "review_timeline": "a year ago",
+        "w_credibility": 0.5,
+        "w_recency": 0.85,
+        "sentiment": -1,
+        "score_i": -0.425
+      },
+      {
+        "name": "row_55",
+        "review_timeline": "a year ago",
+        "w_credibility": 0.5,
+        "w_recency": 0.85,
+        "sentiment": 1,
+        "score_i": 0.425
+      },
+      {
+        "name": "row_56",
+        "review_timeline": "a year ago",
+        "w_credibility": 0.3333,
+        "w_recency": 0.85,
+        "sentiment": -1,
+        "score_i": -0.2833
+      },
+      {
+        "name": "row_57",
+        "review_timeline": "a year ago",
+        "w_credibility": 0.5,
+        "w_recency": 0.85,
+        "sentiment": 1,
+        "score_i": 0.425
+      },
+      {
+        "name": "row_58",
+        "review_timeline": "a year ago",
+        "w_credibility": 0.3333,
+        "w_recency": 0.85,
+        "sentiment": -1,
+        "score_i": -0.2833
+      },
+      {
+        "name": "row_59",
+        "review_timeline": "a year ago",
+        "w_credibility": 0.3333,
+        "w_recency": 0.85,
+        "sentiment": 1,
+        "score_i": 0.2833
+      },
+      {
+        "name": "row_60",
+        "review_timeline": "a year ago",
+        "w_credibility": 1.0,
+        "w_recency": 0.85,
+        "sentiment": 1,
+        "score_i": 0.85
+      },
+      {
+        "name": "row_61",
+        "review_timeline": "a year ago",
+        "w_credibility": 1.0,
+        "w_recency": 0.85,
+        "sentiment": 1,
+        "score_i": 0.85
+      },
+      {
+        "name": "row_62",
+        "review_timeline": "a year ago",
+        "w_credibility": 0.5,
+        "w_recency": 0.85,
+        "sentiment": 1,
+        "score_i": 0.425
+      },
+      {
+        "name": "row_63",
+        "review_timeline": "a year ago",
+        "w_credibility": 0.3333,
+        "w_recency": 0.85,
+        "sentiment": 1,
+        "score_i": 0.2833
+      },
+      {
+        "name": "row_64",
+        "review_timeline": "a year ago",
+        "w_credibility": 0.3333,
+        "w_recency": 0.85,
+        "sentiment": 1,
+        "score_i": 0.2833
+      },
+      {
+        "name": "row_65",
+        "review_timeline": "a year ago",
+        "w_credibility": 0.3333,
+        "w_recency": 0.85,
+        "sentiment": -1,
+        "score_i": -0.2833
+      },
+      {
+        "name": "row_66",
+        "review_timeline": "a year ago",
+        "w_credibility": 0.3333,
+        "w_recency": 0.85,
+        "sentiment": 1,
+        "score_i": 0.2833
+      },
+      {
+        "name": "row_67",
+        "review_timeline": "a year ago",
+        "w_credibility": 0.5,
+        "w_recency": 0.85,
+        "sentiment": 1,
+        "score_i": 0.425
+      },
+      {
+        "name": "row_68",
+        "review_timeline": "Edited a year ago",
+        "w_credibility": 0.5,
+        "w_recency": 0.85,
+        "sentiment": 1,
+        "score_i": 0.425
+      },
+      {
+        "name": "row_69",
+        "review_timeline": "a year ago",
+        "w_credibility": 0.3333,
+        "w_recency": 0.85,
+        "sentiment": 1,
+        "score_i": 0.2833
+      },
+      {
+        "name": "row_70",
+        "review_timeline": "a year ago",
+        "w_credibility": 0.8333,
+        "w_recency": 0.85,
+        "sentiment": 1,
+        "score_i": 0.7083
+      },
+      {
+        "name": "row_71",
+        "review_timeline": "a year ago",
+        "w_credibility": 0.6667,
+        "w_recency": 0.85,
+        "sentiment": 1,
+        "score_i": 0.5667
+      },
+      {
+        "name": "row_72",
+        "review_timeline": "2 years ago",
+        "w_credibility": 1.0,
+        "w_recency": 0.65,
+        "sentiment": 1,
+        "score_i": 0.65
+      },
+      {
+        "name": "row_73",
+        "review_timeline": "2 years ago",
+        "w_credibility": 0.5,
+        "w_recency": 0.65,
+        "sentiment": 1,
+        "score_i": 0.325
+      },
+      {
+        "name": "row_74",
+        "review_timeline": "2 years ago",
+        "w_credibility": 1.0,
+        "w_recency": 0.65,
+        "sentiment": 1,
+        "score_i": 0.65
+      },
+      {
+        "name": "row_75",
+        "review_timeline": "2 years ago",
+        "w_credibility": 0.3333,
+        "w_recency": 0.65,
+        "sentiment": 1,
+        "score_i": 0.2167
+      },
+      {
+        "name": "row_76",
+        "review_timeline": "2 years ago",
+        "w_credibility": 0.5,
+        "w_recency": 0.65,
+        "sentiment": -1,
+        "score_i": -0.325
+      },
+      {
+        "name": "row_77",
+        "review_timeline": "2 years ago",
+        "w_credibility": 1.0,
+        "w_recency": 0.65,
+        "sentiment": -1,
+        "score_i": -0.65
+      },
+      {
+        "name": "row_78",
+        "review_timeline": "2 years ago",
+        "w_credibility": 0.3333,
+        "w_recency": 0.65,
+        "sentiment": -1,
+        "score_i": -0.2167
+      },
+      {
+        "name": "row_79",
+        "review_timeline": "2 years ago",
+        "w_credibility": 0.5,
+        "w_recency": 0.65,
+        "sentiment": 1,
+        "score_i": 0.325
+      },
+      {
+        "name": "row_80",
+        "review_timeline": "2 years ago",
+        "w_credibility": 0.3333,
+        "w_recency": 0.65,
+        "sentiment": 1,
+        "score_i": 0.2167
+      },
+      {
+        "name": "row_81",
+        "review_timeline": "Edited 2 years ago",
+        "w_credibility": 0.8333,
+        "w_recency": 0.65,
+        "sentiment": 1,
+        "score_i": 0.5417
+      },
+      {
+        "name": "row_82",
+        "review_timeline": "2 years ago",
+        "w_credibility": 0.3333,
+        "w_recency": 0.65,
+        "sentiment": -1,
+        "score_i": -0.2167
+      },
+      {
+        "name": "row_83",
+        "review_timeline": "2 years ago",
+        "w_credibility": 0.3333,
+        "w_recency": 0.65,
+        "sentiment": 1,
+        "score_i": 0.2167
+      },
+      {
+        "name": "row_84",
+        "review_timeline": "2 years ago",
+        "w_credibility": 1.0,
+        "w_recency": 0.65,
+        "sentiment": 1,
+        "score_i": 0.65
+      },
+      {
+        "name": "row_85",
+        "review_timeline": "2 years ago",
+        "w_credibility": 0.5,
+        "w_recency": 0.65,
+        "sentiment": 1,
+        "score_i": 0.325
+      },
+      {
+        "name": "row_86",
+        "review_timeline": "2 years ago",
+        "w_credibility": 0.8333,
+        "w_recency": 0.65,
+        "sentiment": 1,
+        "score_i": 0.5417
+      },
+      {
+        "name": "row_87",
+        "review_timeline": "Edited 2 years ago",
+        "w_credibility": 1.0,
+        "w_recency": 0.65,
+        "sentiment": 1,
+        "score_i": 0.65
+      },
+      {
+        "name": "row_88",
+        "review_timeline": "2 years ago",
+        "w_credibility": 0.3333,
+        "w_recency": 0.65,
+        "sentiment": 1,
+        "score_i": 0.2167
+      },
+      {
+        "name": "row_89",
+        "review_timeline": "3 years ago",
+        "w_credibility": 0.8333,
+        "w_recency": 0.45,
+        "sentiment": 1,
+        "score_i": 0.375
+      },
+      {
+        "name": "row_90",
+        "review_timeline": "3 years ago",
+        "w_credibility": 0.5,
+        "w_recency": 0.45,
+        "sentiment": 1,
+        "score_i": 0.225
+      },
+      {
+        "name": "row_91",
+        "review_timeline": "3 years ago",
+        "w_credibility": 0.6667,
+        "w_recency": 0.45,
+        "sentiment": 1,
+        "score_i": 0.3
+      },
+      {
+        "name": "row_92",
+        "review_timeline": "3 years ago",
+        "w_credibility": 0.3333,
+        "w_recency": 0.45,
+        "sentiment": 1,
+        "score_i": 0.15
+      },
+      {
+        "name": "row_93",
+        "review_timeline": "3 years ago",
+        "w_credibility": 0.6667,
+        "w_recency": 0.45,
+        "sentiment": 1,
+        "score_i": 0.3
+      },
+      {
+        "name": "row_94",
+        "review_timeline": "3 years ago",
+        "w_credibility": 1.0,
+        "w_recency": 0.45,
+        "sentiment": 1,
+        "score_i": 0.45
+      },
+      {
+        "name": "row_95",
+        "review_timeline": "3 years ago",
+        "w_credibility": 1.0,
+        "w_recency": 0.45,
+        "sentiment": -1,
+        "score_i": -0.45
+      },
+      {
+        "name": "row_96",
+        "review_timeline": "Edited 3 years ago",
+        "w_credibility": 0.3333,
+        "w_recency": 0.45,
+        "sentiment": 1,
+        "score_i": 0.15
+      },
+      {
+        "name": "row_97",
+        "review_timeline": "3 years ago",
+        "w_credibility": 1.0,
+        "w_recency": 0.45,
+        "sentiment": -1,
+        "score_i": -0.45
+      },
+      {
+        "name": "row_98",
+        "review_timeline": "3 years ago",
+        "w_credibility": 0.5,
+        "w_recency": 0.45,
+        "sentiment": 0,
+        "score_i": 0.0
+      },
+      {
+        "name": "row_99",
+        "review_timeline": "3 years ago",
+        "w_credibility": 1.0,
+        "w_recency": 0.45,
+        "sentiment": 1,
+        "score_i": 0.45
+      },
+      {
+        "name": "row_100",
+        "review_timeline": "3 years ago",
+        "w_credibility": 0.8333,
+        "w_recency": 0.45,
+        "sentiment": 1,
+        "score_i": 0.375
+      },
+      {
+        "name": "row_101",
+        "review_timeline": "3 years ago",
+        "w_credibility": 1.0,
+        "w_recency": 0.45,
+        "sentiment": 1,
+        "score_i": 0.45
+      },
+      {
+        "name": "row_102",
+        "review_timeline": "3 years ago",
+        "w_credibility": 1.0,
+        "w_recency": 0.45,
+        "sentiment": 1,
+        "score_i": 0.45
+      },
+      {
+        "name": "row_103",
+        "review_timeline": "3 years ago",
+        "w_credibility": 0.3333,
+        "w_recency": 0.45,
+        "sentiment": 1,
+        "score_i": 0.15
+      },
+      {
+        "name": "row_104",
+        "review_timeline": "3 years ago",
+        "w_credibility": 0.5,
+        "w_recency": 0.45,
+        "sentiment": 1,
+        "score_i": 0.225
+      },
+      {
+        "name": "row_105",
+        "review_timeline": "4 years ago",
+        "w_credibility": 1.0,
+        "w_recency": 0.25,
+        "sentiment": 1,
+        "score_i": 0.25
+      },
+      {
+        "name": "row_106",
+        "review_timeline": "4 years ago",
+        "w_credibility": 1.0,
+        "w_recency": 0.25,
+        "sentiment": 1,
+        "score_i": 0.25
+      },
+      {
+        "name": "row_107",
+        "review_timeline": "4 years ago",
+        "w_credibility": 0.8333,
+        "w_recency": 0.25,
+        "sentiment": 1,
+        "score_i": 0.2083
+      },
+      {
+        "name": "row_108",
+        "review_timeline": "4 years ago",
+        "w_credibility": 0.3333,
+        "w_recency": 0.25,
+        "sentiment": 1,
+        "score_i": 0.0833
+      },
+      {
+        "name": "row_109",
+        "review_timeline": "4 years ago",
+        "w_credibility": 0.5,
+        "w_recency": 0.25,
+        "sentiment": 1,
+        "score_i": 0.125
+      },
+      {
+        "name": "row_110",
+        "review_timeline": "4 years ago",
+        "w_credibility": 0.3333,
+        "w_recency": 0.25,
+        "sentiment": 1,
+        "score_i": 0.0833
+      },
+      {
+        "name": "row_111",
+        "review_timeline": "4 years ago",
+        "w_credibility": 1.0,
+        "w_recency": 0.25,
+        "sentiment": 1,
+        "score_i": 0.25
+      },
+      {
+        "name": "row_112",
+        "review_timeline": "4 years ago",
+        "w_credibility": 0.8333,
+        "w_recency": 0.25,
+        "sentiment": 1,
+        "score_i": 0.2083
+      },
+      {
+        "name": "row_113",
+        "review_timeline": "4 years ago",
+        "w_credibility": 0.3333,
+        "w_recency": 0.25,
+        "sentiment": 1,
+        "score_i": 0.0833
+      },
+      {
+        "name": "row_114",
+        "review_timeline": "4 years ago",
+        "w_credibility": 1.0,
+        "w_recency": 0.25,
+        "sentiment": 1,
+        "score_i": 0.25
+      },
+      {
+        "name": "row_115",
+        "review_timeline": "4 years ago",
+        "w_credibility": 0.5,
+        "w_recency": 0.25,
+        "sentiment": 1,
+        "score_i": 0.125
+      },
+      {
+        "name": "row_116",
+        "review_timeline": "4 years ago",
+        "w_credibility": 1.0,
+        "w_recency": 0.25,
+        "sentiment": 1,
+        "score_i": 0.25
+      },
+      {
+        "name": "row_117",
+        "review_timeline": "4 years ago",
+        "w_credibility": 0.5,
+        "w_recency": 0.25,
+        "sentiment": 1,
+        "score_i": 0.125
+      },
+      {
+        "name": "row_118",
+        "review_timeline": "4 years ago",
+        "w_credibility": 1.0,
+        "w_recency": 0.25,
+        "sentiment": 1,
+        "score_i": 0.25
+      },
+      {
+        "name": "row_119",
+        "review_timeline": "4 years ago",
+        "w_credibility": 0.3333,
+        "w_recency": 0.25,
+        "sentiment": 1,
+        "score_i": 0.0833
+      },
+      {
+        "name": "row_120",
+        "review_timeline": "Edited 4 years ago",
+        "w_credibility": 1.0,
+        "w_recency": 0.25,
+        "sentiment": 1,
+        "score_i": 0.25
+      },
+      {
+        "name": "row_121",
+        "review_timeline": "4 years ago",
+        "w_credibility": 0.3333,
+        "w_recency": 0.25,
+        "sentiment": 1,
+        "score_i": 0.0833
+      },
+      {
+        "name": "row_122",
+        "review_timeline": "4 years ago",
+        "w_credibility": 0.6667,
+        "w_recency": 0.25,
+        "sentiment": 1,
+        "score_i": 0.1667
+      },
+      {
+        "name": "row_123",
+        "review_timeline": "4 years ago",
+        "w_credibility": 0.3333,
+        "w_recency": 0.25,
+        "sentiment": 1,
+        "score_i": 0.0833
+      },
+      {
+        "name": "row_124",
+        "review_timeline": "4 years ago",
+        "w_credibility": 0.3333,
+        "w_recency": 0.25,
+        "sentiment": 1,
+        "score_i": 0.0833
+      },
+      {
+        "name": "row_125",
+        "review_timeline": "4 years ago",
+        "w_credibility": 0.5,
+        "w_recency": 0.25,
+        "sentiment": 1,
+        "score_i": 0.125
+      },
+      {
+        "name": "row_126",
+        "review_timeline": "4 years ago",
+        "w_credibility": 0.3333,
+        "w_recency": 0.25,
+        "sentiment": 1,
+        "score_i": 0.0833
+      },
+      {
+        "name": "row_127",
+        "review_timeline": "4 years ago",
+        "w_credibility": 0.3333,
+        "w_recency": 0.25,
+        "sentiment": 1,
+        "score_i": 0.0833
+      },
+      {
+        "name": "row_128",
+        "review_timeline": "4 years ago",
+        "w_credibility": 0.5,
+        "w_recency": 0.25,
+        "sentiment": 1,
+        "score_i": 0.125
+      },
+      {
+        "name": "row_129",
+        "review_timeline": "4 years ago",
+        "w_credibility": 0.3333,
+        "w_recency": 0.25,
+        "sentiment": 1,
+        "score_i": 0.0833
+      },
+      {
+        "name": "row_130",
+        "review_timeline": "5 years ago",
+        "w_credibility": 0.6667,
+        "w_recency": 0.25,
+        "sentiment": 1,
+        "score_i": 0.1667
+      },
+      {
+        "name": "row_131",
+        "review_timeline": "6 years ago",
+        "w_credibility": 0.5,
+        "w_recency": 0.25,
+        "sentiment": 1,
+        "score_i": 0.125
+      },
+      {
+        "name": "row_132",
+        "review_timeline": "6 years ago",
+        "w_credibility": 0.8333,
+        "w_recency": 0.25,
+        "sentiment": 0,
+        "score_i": 0.0
+      },
+      {
+        "name": "row_133",
+        "review_timeline": "6 years ago",
+        "w_credibility": 0.6667,
+        "w_recency": 0.25,
+        "sentiment": 1,
+        "score_i": 0.1667
+      },
+      {
+        "name": "row_134",
+        "review_timeline": "Edited 6 years ago",
+        "w_credibility": 1.0,
+        "w_recency": 0.25,
+        "sentiment": -1,
+        "score_i": -0.25
+      },
+      {
+        "name": "row_135",
+        "review_timeline": "7 years ago",
+        "w_credibility": 1.0,
+        "w_recency": 0.25,
+        "sentiment": 1,
+        "score_i": 0.25
+      },
+      {
+        "name": "row_136",
+        "review_timeline": "7 years ago",
+        "w_credibility": 1.0,
+        "w_recency": 0.25,
+        "sentiment": -1,
+        "score_i": -0.25
+      },
+      {
+        "name": "row_137",
+        "review_timeline": "7 years ago",
+        "w_credibility": 0.6667,
+        "w_recency": 0.25,
+        "sentiment": 0,
+        "score_i": 0.0
+      },
+      {
+        "name": "row_138",
+        "review_timeline": "7 years ago",
+        "w_credibility": 0.3333,
+        "w_recency": 0.25,
+        "sentiment": -1,
+        "score_i": -0.0833
+      },
+      {
+        "name": "row_139",
+        "review_timeline": "7 years ago",
+        "w_credibility": 0.6667,
+        "w_recency": 0.25,
+        "sentiment": -1,
+        "score_i": -0.1667
+      }
+    ]
+  },
+  "M2_detail": {
+    "avg_rating": 4.1,
+    "total_rating_count": 498,
+    "M2a": 10.07,
+    "M2b": 5.43
+  },
+  "M3_detail": {
+    "total_reviews": 140,
+    "responded": 76,
+    "response_rate": 0.5429,
+    "M3a": 7.5,
+    "recent_reviews": 34,
+    "recent_responded": 17,
+    "recent_rate": 0.5,
+    "M3b": 7.5
+  },
+  "M4_detail": {
+    "website": null,
+    "website_reachable": false,
+    "phone": "085301 01887",
+    "address": "Good Luck, Fergusson College Rd, near Cafe, Deccan Gymkhana, Pune, Maharashtra 411004, India"
+  },
+  "review_stats": {
+    "total": 140,
+    "sentiment_counts": {
+      "1": 111,
+      "0": 4,
+      "-1": 25
+    },
+    "timeline_buckets": {
+      "< 3 months": 17,
+      "3–12 months": 55,
+      "1–2 years": 17,
+      "2–3 years": 16,
+      "3+ years": 35
+    }
+  }
+}
