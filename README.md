@@ -320,7 +320,8 @@ The agent writes and executes arbitrary Python code against the live data. Avail
 Pre-injected libraries: `pd`, `np`, `plt`, `sns`, `sklearn`, `TfidfVectorizer`, `cosine_similarity`, `difflib`, `json`, `re`, `math`, `collections`, `itertools`, `Path`.
 
 `import` and `from X import Y` are both blocked. stdout is captured and returned to the agent, capped at 8,000 characters.
-<img width="6789" height="1951" alt="image" src="https://github.com/user-attachments/assets/2f0bc1df-acc2-453c-9e70-eb5c034ac3a8" />
+<img width="1613" height="337" alt="image" src="https://github.com/user-attachments/assets/6f92d5a1-ca7e-4923-9ae3-3d1580fa82e4" />
+
 
 ### Output Files
 
