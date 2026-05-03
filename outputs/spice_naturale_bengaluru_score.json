@@ -1,11 +1,11 @@
 {
   "business": "Spice Naturale Exim Pvt Ltd",
   "location": "No 30, off Avenue Road, opposite Rudra Building, Ragipet, Old Tharagupet, Mamulpet, Chickpet, Bengaluru, Karnataka 560053, India",
-  "category": "spices",
-  "final_score": 78.98,
+  "category": "Spices",
+  "final_score": 78.6,
   "breakdown": {
     "M1": {
-      "score": 42.23,
+      "score": 41.85,
       "max": 55
     },
     "M2": {
@@ -23,24 +23,24 @@
   },
   "M1_detail": {
     "lambda": 0.5,
-    "mean_score_i": 0.3839,
+    "mean_score_i": 0.3805,
     "total_reviews": 90,
     "per_review": [
       {
         "name": "Nikitha Gs",
         "review_timeline": "4 weeks ago",
-        "w_credibility": 0.3333,
+        "w_credibility": 0.375,
         "w_recency": 1.0,
         "sentiment": 1,
-        "score_i": 0.3333
+        "score_i": 0.375
       },
       {
         "name": "Varlakshmi N",
         "review_timeline": "a month ago",
-        "w_credibility": 0.3333,
+        "w_credibility": 0.1667,
         "w_recency": 1.0,
         "sentiment": 1,
-        "score_i": 0.3333
+        "score_i": 0.1667
       },
       {
         "name": "dafydd prichard",
@@ -53,50 +53,50 @@
       {
         "name": "Prajwal Praju",
         "review_timeline": "2 months ago",
-        "w_credibility": 0.3333,
+        "w_credibility": 0.375,
         "w_recency": 1.0,
         "sentiment": 1,
-        "score_i": 0.3333
+        "score_i": 0.375
       },
       {
         "name": "Ayyappa Swamy",
         "review_timeline": "Edited 2 months ago",
-        "w_credibility": 0.3333,
+        "w_credibility": 0.4167,
         "w_recency": 1.0,
         "sentiment": 1,
-        "score_i": 0.3333
+        "score_i": 0.4167
       },
       {
         "name": "SK INAMUR RAHAMAN",
         "review_timeline": "2 months ago",
-        "w_credibility": 0.3333,
+        "w_credibility": 0.1667,
         "w_recency": 1.0,
         "sentiment": 1,
-        "score_i": 0.3333
+        "score_i": 0.1667
       },
       {
         "name": "lakshmi narayan",
         "review_timeline": "2 months ago",
-        "w_credibility": 0.3333,
+        "w_credibility": 0.375,
         "w_recency": 1.0,
         "sentiment": 1,
-        "score_i": 0.3333
+        "score_i": 0.375
       },
       {
         "name": "Rshantharama shetty Rshantharama shetty",
         "review_timeline": "2 months ago",
-        "w_credibility": 0.3333,
+        "w_credibility": 0.1667,
         "w_recency": 1.0,
         "sentiment": 1,
-        "score_i": 0.3333
+        "score_i": 0.1667
       },
       {
         "name": "Kanickaraj Raja",
         "review_timeline": "2 months ago",
-        "w_credibility": 0.3333,
+        "w_credibility": 0.1667,
         "w_recency": 1.0,
         "sentiment": 1,
-        "score_i": 0.3333
+        "score_i": 0.1667
       },
       {
         "name": "Parul K",
@@ -109,7 +109,7 @@
       {
         "name": "Arun Aru",
         "review_timeline": "2 months ago",
-        "w_credibility": 0.3333,
+        "w_credibility": 0.4583,
         "w_recency": 1.0,
         "sentiment": 0,
         "score_i": 0.0
@@ -117,18 +117,18 @@
       {
         "name": "Whosen Cotharee",
         "review_timeline": "3 months ago",
-        "w_credibility": 0.3333,
+        "w_credibility": 0.375,
         "w_recency": 1.0,
         "sentiment": 1,
-        "score_i": 0.3333
+        "score_i": 0.375
       },
       {
         "name": "Eshwar vj",
         "review_timeline": "3 months ago",
-        "w_credibility": 0.5,
+        "w_credibility": 0.6111,
         "w_recency": 1.0,
         "sentiment": 1,
-        "score_i": 0.5
+        "score_i": 0.6111
       },
       {
         "name": "Mustafa Attaria",
@@ -141,7 +141,7 @@
       {
         "name": "Hari Krishna",
         "review_timeline": "4 months ago",
-        "w_credibility": 0.6667,
+        "w_credibility": 0.7037,
         "w_recency": 0.85,
         "sentiment": 0,
         "score_i": 0.0
@@ -149,10 +149,10 @@
       {
         "name": "Amarnath Setty",
         "review_timeline": "4 months ago",
-        "w_credibility": 0.3333,
+        "w_credibility": 0.1667,
         "w_recency": 0.85,
         "sentiment": 1,
-        "score_i": 0.2833
+        "score_i": 0.1417
       },
       {
         "name": "Anurag Nair",
@@ -165,98 +165,98 @@
       {
         "name": "Prasadmu Prasada",
         "review_timeline": "4 months ago",
-        "w_credibility": 0.3333,
+        "w_credibility": 0.1667,
         "w_recency": 0.85,
         "sentiment": 1,
-        "score_i": 0.2833
+        "score_i": 0.1417
       },
       {
         "name": "Yamuna Bhave",
         "review_timeline": "4 months ago",
-        "w_credibility": 0.3333,
+        "w_credibility": 0.375,
         "w_recency": 0.85,
         "sentiment": 1,
-        "score_i": 0.2833
+        "score_i": 0.3187
       },
       {
         "name": "sailesh shetty",
         "review_timeline": "5 months ago",
-        "w_credibility": 0.8333,
+        "w_credibility": 0.9444,
         "w_recency": 0.85,
         "sentiment": 1,
-        "score_i": 0.7083
+        "score_i": 0.8028
       },
       {
         "name": "soukhya shroff",
         "review_timeline": "5 months ago",
-        "w_credibility": 0.5,
+        "w_credibility": 0.625,
         "w_recency": 0.85,
         "sentiment": 1,
-        "score_i": 0.425
+        "score_i": 0.5312
       },
       {
         "name": "Ajay kumar",
         "review_timeline": "5 months ago",
-        "w_credibility": 0.5,
+        "w_credibility": 0.625,
         "w_recency": 0.85,
         "sentiment": 1,
-        "score_i": 0.425
+        "score_i": 0.5312
       },
       {
         "name": "Lohith C",
         "review_timeline": "5 months ago",
-        "w_credibility": 0.5,
+        "w_credibility": 0.5185,
         "w_recency": 0.85,
         "sentiment": 1,
-        "score_i": 0.425
+        "score_i": 0.4407
       },
       {
         "name": "Manjunatha Manju",
         "review_timeline": "5 months ago",
-        "w_credibility": 0.3333,
+        "w_credibility": 0.1667,
         "w_recency": 0.85,
         "sentiment": 1,
-        "score_i": 0.2833
+        "score_i": 0.1417
       },
       {
         "name": "Madhwa Nandana",
         "review_timeline": "5 months ago",
-        "w_credibility": 0.6667,
+        "w_credibility": 0.6852,
         "w_recency": 0.85,
         "sentiment": 1,
-        "score_i": 0.5667
+        "score_i": 0.5824
       },
       {
         "name": "ವಿಜಯ್ ಕುಮಾರ್ ಗೌಡ",
         "review_timeline": "5 months ago",
-        "w_credibility": 0.8333,
+        "w_credibility": 0.9815,
         "w_recency": 0.85,
         "sentiment": 1,
-        "score_i": 0.7083
+        "score_i": 0.8343
       },
       {
         "name": "Gayathri Gangadhar",
         "review_timeline": "5 months ago",
-        "w_credibility": 0.3333,
+        "w_credibility": 0.375,
         "w_recency": 0.85,
         "sentiment": 1,
-        "score_i": 0.2833
+        "score_i": 0.3187
       },
       {
         "name": "Darani Palla",
         "review_timeline": "5 months ago",
-        "w_credibility": 0.3333,
+        "w_credibility": 0.1667,
         "w_recency": 0.85,
         "sentiment": 1,
-        "score_i": 0.2833
+        "score_i": 0.1417
       },
       {
         "name": "Pandu Kv",
         "review_timeline": "5 months ago",
-        "w_credibility": 0.3333,
+        "w_credibility": 0.375,
         "w_recency": 0.85,
         "sentiment": 1,
-        "score_i": 0.2833
+        "score_i": 0.3187
       },
       {
         "name": "K Nagendra Prasad",
@@ -269,26 +269,26 @@
       {
         "name": "Sadik MS",
         "review_timeline": "5 months ago",
-        "w_credibility": 0.3333,
+        "w_credibility": 0.375,
         "w_recency": 0.85,
         "sentiment": 1,
-        "score_i": 0.2833
+        "score_i": 0.3187
       },
       {
         "name": "Lakshmi Shree V",
         "review_timeline": "5 months ago",
-        "w_credibility": 0.3333,
+        "w_credibility": 0.375,
         "w_recency": 0.85,
         "sentiment": 1,
-        "score_i": 0.2833
+        "score_i": 0.3187
       },
       {
         "name": "P Vinu",
         "review_timeline": "5 months ago",
-        "w_credibility": 0.8333,
+        "w_credibility": 0.8889,
         "w_recency": 0.85,
         "sentiment": 1,
-        "score_i": 0.7083
+        "score_i": 0.7556
       },
       {
         "name": "J Nagaraj Upadhya",
@@ -301,18 +301,18 @@
       {
         "name": "Abu Sema",
         "review_timeline": "5 months ago",
-        "w_credibility": 0.3333,
+        "w_credibility": 0.4583,
         "w_recency": 0.85,
         "sentiment": 1,
-        "score_i": 0.2833
+        "score_i": 0.3896
       },
       {
         "name": "Sri Harshini Palla",
         "review_timeline": "5 months ago",
-        "w_credibility": 0.5,
+        "w_credibility": 0.5833,
         "w_recency": 0.85,
         "sentiment": 1,
-        "score_i": 0.425
+        "score_i": 0.4958
       },
       {
         "name": "Kalpana B S",
@@ -325,50 +325,50 @@
       {
         "name": "Venkataramanappa V",
         "review_timeline": "5 months ago",
-        "w_credibility": 0.5,
+        "w_credibility": 0.5417,
         "w_recency": 0.85,
         "sentiment": 1,
-        "score_i": 0.425
+        "score_i": 0.4604
       },
       {
         "name": "Bhagavan S K",
         "review_timeline": "6 months ago",
-        "w_credibility": 0.6667,
+        "w_credibility": 0.7593,
         "w_recency": 0.85,
         "sentiment": 1,
-        "score_i": 0.5667
+        "score_i": 0.6454
       },
       {
         "name": "Akash R Gowda",
         "review_timeline": "6 months ago",
-        "w_credibility": 0.5,
+        "w_credibility": 0.5417,
         "w_recency": 0.85,
         "sentiment": 1,
-        "score_i": 0.425
+        "score_i": 0.4604
       },
       {
         "name": "manjula S",
         "review_timeline": "6 months ago",
-        "w_credibility": 0.3333,
+        "w_credibility": 0.1667,
         "w_recency": 0.85,
         "sentiment": 1,
-        "score_i": 0.2833
+        "score_i": 0.1417
       },
       {
         "name": "Mala Ramesh",
         "review_timeline": "6 months ago",
-        "w_credibility": 0.3333,
+        "w_credibility": 0.1667,
         "w_recency": 0.85,
         "sentiment": 1,
-        "score_i": 0.2833
+        "score_i": 0.1417
       },
       {
         "name": "Titas Roy",
         "review_timeline": "6 months ago",
-        "w_credibility": 0.5,
+        "w_credibility": 0.5741,
         "w_recency": 0.85,
         "sentiment": 1,
-        "score_i": 0.425
+        "score_i": 0.488
       },
       {
         "name": "Suhas Bhat",
@@ -389,34 +389,34 @@
       {
         "name": "sudarshan giri",
         "review_timeline": "7 months ago",
-        "w_credibility": 0.5,
-        "w_recency": 0.85,
-        "sentiment": 1,
-        "score_i": 0.425
-      },
-      {
-        "name": "cult login",
-        "review_timeline": "7 months ago",
-        "w_credibility": 0.6667,
-        "w_recency": 0.85,
-        "sentiment": 1,
-        "score_i": 0.5667
-      },
-      {
-        "name": "Manjunath NJ",
-        "review_timeline": "8 months ago",
         "w_credibility": 0.3333,
         "w_recency": 0.85,
         "sentiment": 1,
         "score_i": 0.2833
       },
       {
-        "name": "sharath sr",
-        "review_timeline": "Edited 9 months ago",
-        "w_credibility": 0.8333,
+        "name": "cult login",
+        "review_timeline": "7 months ago",
+        "w_credibility": 0.7037,
         "w_recency": 0.85,
         "sentiment": 1,
-        "score_i": 0.7083
+        "score_i": 0.5981
+      },
+      {
+        "name": "Manjunath NJ",
+        "review_timeline": "8 months ago",
+        "w_credibility": 0.375,
+        "w_recency": 0.85,
+        "sentiment": 1,
+        "score_i": 0.3187
+      },
+      {
+        "name": "sharath sr",
+        "review_timeline": "Edited 9 months ago",
+        "w_credibility": 0.9259,
+        "w_recency": 0.85,
+        "sentiment": 1,
+        "score_i": 0.787
       },
       {
         "name": "likith kumar",
@@ -429,18 +429,18 @@
       {
         "name": "neha v b",
         "review_timeline": "10 months ago",
-        "w_credibility": 0.3333,
+        "w_credibility": 0.4167,
         "w_recency": 0.85,
         "sentiment": 1,
-        "score_i": 0.2833
+        "score_i": 0.3542
       },
       {
         "name": "Harsha Puttanagoudaru",
         "review_timeline": "10 months ago",
-        "w_credibility": 0.6667,
+        "w_credibility": 0.7222,
         "w_recency": 0.85,
         "sentiment": 1,
-        "score_i": 0.5667
+        "score_i": 0.6139
       },
       {
         "name": "Glitz & Glamour",
@@ -461,10 +461,10 @@
       {
         "name": "Viswanath Chidambaram",
         "review_timeline": "a year ago",
-        "w_credibility": 0.5,
+        "w_credibility": 0.5185,
         "w_recency": 0.85,
         "sentiment": 1,
-        "score_i": 0.425
+        "score_i": 0.4407
       },
       {
         "name": "Shiva Raj",
@@ -485,18 +485,18 @@
       {
         "name": "Meghana Nagendra",
         "review_timeline": "a year ago",
-        "w_credibility": 0.6667,
+        "w_credibility": 0.6852,
         "w_recency": 0.85,
         "sentiment": 1,
-        "score_i": 0.5667
+        "score_i": 0.5824
       },
       {
         "name": "Niha Sulthana",
         "review_timeline": "a year ago",
-        "w_credibility": 0.3333,
+        "w_credibility": 0.1667,
         "w_recency": 0.85,
         "sentiment": 1,
-        "score_i": 0.2833
+        "score_i": 0.1417
       },
       {
         "name": "Monica Gupta",
@@ -517,18 +517,18 @@
       {
         "name": "Naveen Kumar V",
         "review_timeline": "a year ago",
-        "w_credibility": 0.5,
+        "w_credibility": 0.5185,
         "w_recency": 0.85,
         "sentiment": 1,
-        "score_i": 0.425
+        "score_i": 0.4407
       },
       {
         "name": "rupesh kumar Gupta",
         "review_timeline": "a year ago",
-        "w_credibility": 0.3333,
+        "w_credibility": 0.1667,
         "w_recency": 0.85,
         "sentiment": 1,
-        "score_i": 0.2833
+        "score_i": 0.1417
       },
       {
         "name": "Roopa K",
@@ -541,10 +541,10 @@
       {
         "name": "rudresh gb",
         "review_timeline": "a year ago",
-        "w_credibility": 0.3333,
+        "w_credibility": 0.1667,
         "w_recency": 0.85,
         "sentiment": 1,
-        "score_i": 0.2833
+        "score_i": 0.1417
       },
       {
         "name": "Saravanan K",
@@ -557,10 +557,10 @@
       {
         "name": "Abdull Sattar",
         "review_timeline": "a year ago",
-        "w_credibility": 0.3333,
+        "w_credibility": 0.1667,
         "w_recency": 0.85,
         "sentiment": 1,
-        "score_i": 0.2833
+        "score_i": 0.1417
       },
       {
         "name": "Sathish Kumar Rajendran",
@@ -573,10 +573,10 @@
       {
         "name": "R.LINGESWAR REDDY",
         "review_timeline": "a year ago",
-        "w_credibility": 0.5,
+        "w_credibility": 0.5417,
         "w_recency": 0.85,
         "sentiment": 1,
-        "score_i": 0.425
+        "score_i": 0.4604
       },
       {
         "name": "Anjali Gowda",
@@ -589,18 +589,18 @@
       {
         "name": "Shilpa Shankarappa",
         "review_timeline": "a year ago",
-        "w_credibility": 0.3333,
+        "w_credibility": 0.1667,
         "w_recency": 0.85,
         "sentiment": 1,
-        "score_i": 0.2833
+        "score_i": 0.1417
       },
       {
         "name": "Narasimhulu Maddileti",
         "review_timeline": "a year ago",
-        "w_credibility": 0.3333,
+        "w_credibility": 0.4167,
         "w_recency": 0.85,
         "sentiment": 1,
-        "score_i": 0.2833
+        "score_i": 0.3542
       },
       {
         "name": "kiran kumar kumar",
@@ -629,26 +629,26 @@
       {
         "name": "Pavithra Raja Reddy",
         "review_timeline": "2 years ago",
-        "w_credibility": 0.6667,
+        "w_credibility": 0.6852,
         "w_recency": 0.65,
         "sentiment": 1,
-        "score_i": 0.4333
+        "score_i": 0.4454
       },
       {
         "name": "Rakhi Maheshwari",
         "review_timeline": "2 years ago",
-        "w_credibility": 0.3333,
+        "w_credibility": 0.375,
         "w_recency": 0.65,
         "sentiment": 1,
-        "score_i": 0.2167
+        "score_i": 0.2438
       },
       {
         "name": "Reuben Lewis",
         "review_timeline": "2 years ago",
-        "w_credibility": 0.3333,
+        "w_credibility": 0.375,
         "w_recency": 0.65,
         "sentiment": 1,
-        "score_i": 0.2167
+        "score_i": 0.2438
       },
       {
         "name": "Chandan k m",
@@ -661,26 +661,26 @@
       {
         "name": "Divya Jagadeesh",
         "review_timeline": "2 years ago",
-        "w_credibility": 0.3333,
+        "w_credibility": 0.4167,
         "w_recency": 0.65,
         "sentiment": 1,
-        "score_i": 0.2167
+        "score_i": 0.2708
       },
       {
         "name": "Saul Pereira",
         "review_timeline": "3 years ago",
-        "w_credibility": 0.5,
+        "w_credibility": 0.5185,
         "w_recency": 0.45,
         "sentiment": 1,
-        "score_i": 0.225
+        "score_i": 0.2333
       },
       {
         "name": "Bhawna Aggarwal",
         "review_timeline": "3 years ago",
-        "w_credibility": 0.5,
+        "w_credibility": 0.5185,
         "w_recency": 0.45,
         "sentiment": 1,
-        "score_i": 0.225
+        "score_i": 0.2333
       },
       {
         "name": "Sunil K R (Sunirmala Radhapati Das)",
@@ -693,18 +693,18 @@
       {
         "name": "Akhila Hemanth Kumar",
         "review_timeline": "3 years ago",
-        "w_credibility": 0.8333,
+        "w_credibility": 0.9444,
         "w_recency": 0.45,
         "sentiment": 1,
-        "score_i": 0.375
+        "score_i": 0.425
       },
       {
         "name": "Mridul Robert",
         "review_timeline": "3 years ago",
-        "w_credibility": 0.3333,
+        "w_credibility": 0.375,
         "w_recency": 0.45,
         "sentiment": -1,
-        "score_i": -0.15
+        "score_i": -0.1688
       },
       {
         "name": "sudhanva dp",
@@ -717,18 +717,18 @@
       {
         "name": "Anush Eswar",
         "review_timeline": "4 years ago",
-        "w_credibility": 0.5,
+        "w_credibility": 0.537,
         "w_recency": 0.25,
         "sentiment": 1,
-        "score_i": 0.125
+        "score_i": 0.1343
       },
       {
         "name": "anupama eshwar",
         "review_timeline": "4 years ago",
-        "w_credibility": 0.6667,
+        "w_credibility": 0.6852,
         "w_recency": 0.25,
         "sentiment": 1,
-        "score_i": 0.1667
+        "score_i": 0.1713
       },
       {
         "name": "Eswar Vemala",
@@ -741,10 +741,10 @@
       {
         "name": "Amritha Shenoy",
         "review_timeline": "4 years ago",
-        "w_credibility": 0.3333,
+        "w_credibility": 0.4167,
         "w_recency": 0.25,
         "sentiment": 1,
-        "score_i": 0.0833
+        "score_i": 0.1042
       }
     ]
   },

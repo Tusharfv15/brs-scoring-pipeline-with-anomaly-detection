@@ -1,11 +1,11 @@
 {
   "business": "Saudamini Handloom",
   "location": "Good Luck, Fergusson College Rd, near Cafe, Deccan Gymkhana, Pune, Maharashtra 411004, India",
-  "category": "handloom",
-  "final_score": 58.96,
+  "category": "Handloom",
+  "final_score": 60.67,
   "breakdown": {
     "M1": {
-      "score": 23.46,
+      "score": 25.17,
       "max": 55
     },
     "M2": {
@@ -23,7 +23,7 @@
   },
   "M1_detail": {
     "lambda": 0.5,
-    "mean_score_i": 0.2133,
+    "mean_score_i": 0.2288,
     "total_reviews": 140,
     "per_review": [
       {
@@ -37,7 +37,7 @@
       {
         "name": "row_1",
         "review_timeline": "a month ago",
-        "w_credibility": 0.5,
+        "w_credibility": 0.5556,
         "w_recency": 1.0,
         "sentiment": 0,
         "score_i": 0.0
@@ -45,10 +45,10 @@
       {
         "name": "row_2",
         "review_timeline": "a month ago",
-        "w_credibility": 0.3333,
+        "w_credibility": 0.4583,
         "w_recency": 1.0,
         "sentiment": 1,
-        "score_i": 0.3333
+        "score_i": 0.4583
       },
       {
         "name": "row_3",
@@ -85,18 +85,18 @@
       {
         "name": "row_7",
         "review_timeline": "2 months ago",
-        "w_credibility": 0.3333,
+        "w_credibility": 0.1667,
         "w_recency": 1.0,
         "sentiment": -1,
-        "score_i": -0.3333
+        "score_i": -0.1667
       },
       {
         "name": "row_8",
         "review_timeline": "3 months ago",
-        "w_credibility": 0.5,
+        "w_credibility": 0.5185,
         "w_recency": 1.0,
         "sentiment": 1,
-        "score_i": 0.5
+        "score_i": 0.5185
       },
       {
         "name": "row_9",
@@ -109,10 +109,10 @@
       {
         "name": "row_10",
         "review_timeline": "3 months ago",
-        "w_credibility": 0.5,
+        "w_credibility": 0.6296,
         "w_recency": 1.0,
         "sentiment": 1,
-        "score_i": 0.5
+        "score_i": 0.6296
       },
       {
         "name": "row_11",
@@ -157,21 +157,13 @@
       {
         "name": "row_16",
         "review_timeline": "3 months ago",
-        "w_credibility": 0.3333,
+        "w_credibility": 0.375,
         "w_recency": 1.0,
         "sentiment": 1,
-        "score_i": 0.3333
+        "score_i": 0.375
       },
       {
         "name": "row_17",
-        "review_timeline": "4 months ago",
-        "w_credibility": 0.5,
-        "w_recency": 0.85,
-        "sentiment": 1,
-        "score_i": 0.425
-      },
-      {
-        "name": "row_18",
         "review_timeline": "4 months ago",
         "w_credibility": 0.3333,
         "w_recency": 0.85,
@@ -179,20 +171,28 @@
         "score_i": 0.2833
       },
       {
+        "name": "row_18",
+        "review_timeline": "4 months ago",
+        "w_credibility": 0.375,
+        "w_recency": 0.85,
+        "sentiment": 1,
+        "score_i": 0.3187
+      },
+      {
         "name": "row_19",
         "review_timeline": "4 months ago",
-        "w_credibility": 0.3333,
+        "w_credibility": 0.1667,
         "w_recency": 0.85,
         "sentiment": -1,
-        "score_i": -0.2833
+        "score_i": -0.1417
       },
       {
         "name": "row_20",
         "review_timeline": "5 months ago",
-        "w_credibility": 0.8333,
+        "w_credibility": 0.9444,
         "w_recency": 0.85,
         "sentiment": 1,
-        "score_i": 0.7083
+        "score_i": 0.8028
       },
       {
         "name": "row_21",
@@ -213,26 +213,26 @@
       {
         "name": "row_23",
         "review_timeline": "5 months ago",
-        "w_credibility": 0.3333,
+        "w_credibility": 0.375,
         "w_recency": 0.85,
         "sentiment": 1,
-        "score_i": 0.2833
+        "score_i": 0.3187
       },
       {
         "name": "row_24",
         "review_timeline": "5 months ago",
-        "w_credibility": 0.3333,
+        "w_credibility": 0.375,
         "w_recency": 0.85,
         "sentiment": 1,
-        "score_i": 0.2833
+        "score_i": 0.3187
       },
       {
         "name": "row_25",
         "review_timeline": "Edited 5 months ago",
-        "w_credibility": 0.6667,
+        "w_credibility": 0.7593,
         "w_recency": 0.85,
         "sentiment": 1,
-        "score_i": 0.5667
+        "score_i": 0.6454
       },
       {
         "name": "row_26",
@@ -261,74 +261,74 @@
       {
         "name": "row_29",
         "review_timeline": "6 months ago",
-        "w_credibility": 0.3333,
+        "w_credibility": 0.1667,
         "w_recency": 0.85,
         "sentiment": -1,
-        "score_i": -0.2833
+        "score_i": -0.1417
       },
       {
         "name": "row_30",
         "review_timeline": "6 months ago",
-        "w_credibility": 0.3333,
+        "w_credibility": 0.4167,
         "w_recency": 0.85,
         "sentiment": -1,
-        "score_i": -0.2833
+        "score_i": -0.3542
       },
       {
         "name": "row_31",
         "review_timeline": "6 months ago",
-        "w_credibility": 0.6667,
+        "w_credibility": 0.6852,
         "w_recency": 0.85,
         "sentiment": 1,
-        "score_i": 0.5667
+        "score_i": 0.5824
       },
       {
         "name": "row_32",
         "review_timeline": "6 months ago",
-        "w_credibility": 0.3333,
+        "w_credibility": 0.4167,
         "w_recency": 0.85,
         "sentiment": 1,
-        "score_i": 0.2833
+        "score_i": 0.3542
       },
       {
         "name": "row_33",
         "review_timeline": "6 months ago",
-        "w_credibility": 0.3333,
+        "w_credibility": 0.1667,
         "w_recency": 0.85,
         "sentiment": 1,
-        "score_i": 0.2833
+        "score_i": 0.1417
       },
       {
         "name": "row_34",
         "review_timeline": "8 months ago",
-        "w_credibility": 0.5,
+        "w_credibility": 0.5833,
         "w_recency": 0.85,
         "sentiment": 1,
-        "score_i": 0.425
+        "score_i": 0.4958
       },
       {
         "name": "row_35",
         "review_timeline": "8 months ago",
-        "w_credibility": 0.3333,
+        "w_credibility": 0.1667,
         "w_recency": 0.85,
         "sentiment": 1,
-        "score_i": 0.2833
+        "score_i": 0.1417
       },
       {
         "name": "row_36",
         "review_timeline": "8 months ago",
-        "w_credibility": 0.3333,
+        "w_credibility": 0.375,
         "w_recency": 0.85,
         "sentiment": 1,
-        "score_i": 0.2833
+        "score_i": 0.3187
       },
       {
         "name": "row_37",
         "review_timeline": "8 months ago",
-        "w_credibility": 0.6667,
+        "w_credibility": 0.7037,
         "w_recency": 0.85,
         "sentiment": -1,
-        "score_i": -0.5667
+        "score_i": -0.5981
       },
       {
         "name": "row_38",
@@ -341,10 +341,10 @@
       {
         "name": "row_39",
         "review_timeline": "8 months ago",
-        "w_credibility": 0.6667,
+        "w_credibility": 0.7222,
         "w_recency": 0.85,
         "sentiment": 1,
-        "score_i": 0.5667
+        "score_i": 0.6139
       },
       {
         "name": "row_40",
@@ -365,26 +365,26 @@
       {
         "name": "row_42",
         "review_timeline": "8 months ago",
-        "w_credibility": 0.6667,
+        "w_credibility": 0.7593,
         "w_recency": 0.85,
         "sentiment": 1,
-        "score_i": 0.5667
+        "score_i": 0.6454
       },
       {
         "name": "row_43",
         "review_timeline": "8 months ago",
-        "w_credibility": 0.3333,
+        "w_credibility": 0.1667,
         "w_recency": 0.85,
         "sentiment": 1,
-        "score_i": 0.2833
+        "score_i": 0.1417
       },
       {
         "name": "row_44",
         "review_timeline": "8 months ago",
-        "w_credibility": 0.6667,
+        "w_credibility": 0.7037,
         "w_recency": 0.85,
         "sentiment": -1,
-        "score_i": -0.5667
+        "score_i": -0.5981
       },
       {
         "name": "row_45",
@@ -397,18 +397,18 @@
       {
         "name": "row_46",
         "review_timeline": "10 months ago",
-        "w_credibility": 0.6667,
+        "w_credibility": 0.7407,
         "w_recency": 0.85,
         "sentiment": 1,
-        "score_i": 0.5667
+        "score_i": 0.6296
       },
       {
         "name": "row_47",
         "review_timeline": "10 months ago",
-        "w_credibility": 0.6667,
+        "w_credibility": 0.7037,
         "w_recency": 0.85,
         "sentiment": 1,
-        "score_i": 0.5667
+        "score_i": 0.5981
       },
       {
         "name": "row_48",
@@ -421,18 +421,18 @@
       {
         "name": "row_49",
         "review_timeline": "a year ago",
-        "w_credibility": 0.6667,
+        "w_credibility": 0.7222,
         "w_recency": 0.85,
         "sentiment": 1,
-        "score_i": 0.5667
+        "score_i": 0.6139
       },
       {
         "name": "row_50",
         "review_timeline": "a year ago",
-        "w_credibility": 0.3333,
+        "w_credibility": 0.4167,
         "w_recency": 0.85,
         "sentiment": 1,
-        "score_i": 0.2833
+        "score_i": 0.3542
       },
       {
         "name": "row_51",
@@ -461,50 +461,50 @@
       {
         "name": "row_54",
         "review_timeline": "a year ago",
-        "w_credibility": 0.5,
+        "w_credibility": 0.537,
         "w_recency": 0.85,
         "sentiment": -1,
-        "score_i": -0.425
+        "score_i": -0.4565
       },
       {
         "name": "row_55",
         "review_timeline": "a year ago",
-        "w_credibility": 0.5,
+        "w_credibility": 0.5926,
         "w_recency": 0.85,
         "sentiment": 1,
-        "score_i": 0.425
+        "score_i": 0.5037
       },
       {
         "name": "row_56",
         "review_timeline": "a year ago",
-        "w_credibility": 0.3333,
+        "w_credibility": 0.1667,
         "w_recency": 0.85,
         "sentiment": -1,
-        "score_i": -0.2833
+        "score_i": -0.1417
       },
       {
         "name": "row_57",
         "review_timeline": "a year ago",
-        "w_credibility": 0.5,
+        "w_credibility": 0.5185,
         "w_recency": 0.85,
         "sentiment": 1,
-        "score_i": 0.425
+        "score_i": 0.4407
       },
       {
         "name": "row_58",
         "review_timeline": "a year ago",
-        "w_credibility": 0.3333,
+        "w_credibility": 0.1667,
         "w_recency": 0.85,
         "sentiment": -1,
-        "score_i": -0.2833
+        "score_i": -0.1417
       },
       {
         "name": "row_59",
         "review_timeline": "a year ago",
-        "w_credibility": 0.3333,
+        "w_credibility": 0.1667,
         "w_recency": 0.85,
         "sentiment": 1,
-        "score_i": 0.2833
+        "score_i": 0.1417
       },
       {
         "name": "row_60",
@@ -525,26 +525,26 @@
       {
         "name": "row_62",
         "review_timeline": "a year ago",
-        "w_credibility": 0.5,
+        "w_credibility": 0.5833,
         "w_recency": 0.85,
         "sentiment": 1,
-        "score_i": 0.425
+        "score_i": 0.4958
       },
       {
         "name": "row_63",
         "review_timeline": "a year ago",
-        "w_credibility": 0.3333,
+        "w_credibility": 0.1667,
         "w_recency": 0.85,
         "sentiment": 1,
-        "score_i": 0.2833
+        "score_i": 0.1417
       },
       {
         "name": "row_64",
         "review_timeline": "a year ago",
-        "w_credibility": 0.3333,
+        "w_credibility": 0.4583,
         "w_recency": 0.85,
         "sentiment": 1,
-        "score_i": 0.2833
+        "score_i": 0.3896
       },
       {
         "name": "row_65",
@@ -565,42 +565,42 @@
       {
         "name": "row_67",
         "review_timeline": "a year ago",
-        "w_credibility": 0.5,
+        "w_credibility": 0.625,
         "w_recency": 0.85,
         "sentiment": 1,
-        "score_i": 0.425
+        "score_i": 0.5312
       },
       {
         "name": "row_68",
         "review_timeline": "Edited a year ago",
-        "w_credibility": 0.5,
+        "w_credibility": 0.5417,
         "w_recency": 0.85,
         "sentiment": 1,
-        "score_i": 0.425
+        "score_i": 0.4604
       },
       {
         "name": "row_69",
         "review_timeline": "a year ago",
-        "w_credibility": 0.3333,
+        "w_credibility": 0.4167,
         "w_recency": 0.85,
         "sentiment": 1,
-        "score_i": 0.2833
+        "score_i": 0.3542
       },
       {
         "name": "row_70",
         "review_timeline": "a year ago",
-        "w_credibility": 0.8333,
+        "w_credibility": 0.9815,
         "w_recency": 0.85,
         "sentiment": 1,
-        "score_i": 0.7083
+        "score_i": 0.8343
       },
       {
         "name": "row_71",
         "review_timeline": "a year ago",
-        "w_credibility": 0.6667,
+        "w_credibility": 0.7407,
         "w_recency": 0.85,
         "sentiment": 1,
-        "score_i": 0.5667
+        "score_i": 0.6296
       },
       {
         "name": "row_72",
@@ -613,10 +613,10 @@
       {
         "name": "row_73",
         "review_timeline": "2 years ago",
-        "w_credibility": 0.5,
+        "w_credibility": 0.5833,
         "w_recency": 0.65,
         "sentiment": 1,
-        "score_i": 0.325
+        "score_i": 0.3792
       },
       {
         "name": "row_74",
@@ -653,50 +653,50 @@
       {
         "name": "row_78",
         "review_timeline": "2 years ago",
-        "w_credibility": 0.3333,
+        "w_credibility": 0.4167,
         "w_recency": 0.65,
         "sentiment": -1,
-        "score_i": -0.2167
+        "score_i": -0.2708
       },
       {
         "name": "row_79",
         "review_timeline": "2 years ago",
-        "w_credibility": 0.5,
+        "w_credibility": 0.537,
         "w_recency": 0.65,
         "sentiment": 1,
-        "score_i": 0.325
+        "score_i": 0.3491
       },
       {
         "name": "row_80",
         "review_timeline": "2 years ago",
-        "w_credibility": 0.3333,
+        "w_credibility": 0.4167,
         "w_recency": 0.65,
         "sentiment": 1,
-        "score_i": 0.2167
+        "score_i": 0.2708
       },
       {
         "name": "row_81",
         "review_timeline": "Edited 2 years ago",
-        "w_credibility": 0.8333,
+        "w_credibility": 0.8704,
         "w_recency": 0.65,
         "sentiment": 1,
-        "score_i": 0.5417
+        "score_i": 0.5657
       },
       {
         "name": "row_82",
         "review_timeline": "2 years ago",
-        "w_credibility": 0.3333,
+        "w_credibility": 0.375,
         "w_recency": 0.65,
         "sentiment": -1,
-        "score_i": -0.2167
+        "score_i": -0.2438
       },
       {
         "name": "row_83",
         "review_timeline": "2 years ago",
-        "w_credibility": 0.3333,
+        "w_credibility": 0.4167,
         "w_recency": 0.65,
         "sentiment": 1,
-        "score_i": 0.2167
+        "score_i": 0.2708
       },
       {
         "name": "row_84",
@@ -709,10 +709,10 @@
       {
         "name": "row_85",
         "review_timeline": "2 years ago",
-        "w_credibility": 0.5,
+        "w_credibility": 0.625,
         "w_recency": 0.65,
         "sentiment": 1,
-        "score_i": 0.325
+        "score_i": 0.4062
       },
       {
         "name": "row_86",
@@ -741,26 +741,26 @@
       {
         "name": "row_89",
         "review_timeline": "3 years ago",
-        "w_credibility": 0.8333,
+        "w_credibility": 0.963,
         "w_recency": 0.45,
         "sentiment": 1,
-        "score_i": 0.375
+        "score_i": 0.4333
       },
       {
         "name": "row_90",
         "review_timeline": "3 years ago",
-        "w_credibility": 0.5,
+        "w_credibility": 0.5833,
         "w_recency": 0.45,
         "sentiment": 1,
-        "score_i": 0.225
+        "score_i": 0.2625
       },
       {
         "name": "row_91",
         "review_timeline": "3 years ago",
-        "w_credibility": 0.6667,
+        "w_credibility": 0.7407,
         "w_recency": 0.45,
         "sentiment": 1,
-        "score_i": 0.3
+        "score_i": 0.3333
       },
       {
         "name": "row_92",
@@ -813,7 +813,7 @@
       {
         "name": "row_98",
         "review_timeline": "3 years ago",
-        "w_credibility": 0.5,
+        "w_credibility": 0.5741,
         "w_recency": 0.45,
         "sentiment": 0,
         "score_i": 0.0
@@ -853,18 +853,18 @@
       {
         "name": "row_103",
         "review_timeline": "3 years ago",
-        "w_credibility": 0.3333,
+        "w_credibility": 0.375,
         "w_recency": 0.45,
         "sentiment": 1,
-        "score_i": 0.15
+        "score_i": 0.1688
       },
       {
         "name": "row_104",
         "review_timeline": "3 years ago",
-        "w_credibility": 0.5,
+        "w_credibility": 0.5185,
         "w_recency": 0.45,
         "sentiment": 1,
-        "score_i": 0.225
+        "score_i": 0.2333
       },
       {
         "name": "row_105",
@@ -885,34 +885,34 @@
       {
         "name": "row_107",
         "review_timeline": "4 years ago",
-        "w_credibility": 0.8333,
+        "w_credibility": 0.8704,
         "w_recency": 0.25,
         "sentiment": 1,
-        "score_i": 0.2083
+        "score_i": 0.2176
       },
       {
         "name": "row_108",
         "review_timeline": "4 years ago",
-        "w_credibility": 0.3333,
+        "w_credibility": 0.375,
         "w_recency": 0.25,
         "sentiment": 1,
-        "score_i": 0.0833
+        "score_i": 0.0938
       },
       {
         "name": "row_109",
         "review_timeline": "4 years ago",
-        "w_credibility": 0.5,
+        "w_credibility": 0.5556,
         "w_recency": 0.25,
         "sentiment": 1,
-        "score_i": 0.125
+        "score_i": 0.1389
       },
       {
         "name": "row_110",
         "review_timeline": "4 years ago",
-        "w_credibility": 0.3333,
+        "w_credibility": 0.4167,
         "w_recency": 0.25,
         "sentiment": 1,
-        "score_i": 0.0833
+        "score_i": 0.1042
       },
       {
         "name": "row_111",
@@ -925,10 +925,10 @@
       {
         "name": "row_112",
         "review_timeline": "4 years ago",
-        "w_credibility": 0.8333,
+        "w_credibility": 0.8889,
         "w_recency": 0.25,
         "sentiment": 1,
-        "score_i": 0.2083
+        "score_i": 0.2222
       },
       {
         "name": "row_113",
@@ -949,10 +949,10 @@
       {
         "name": "row_115",
         "review_timeline": "4 years ago",
-        "w_credibility": 0.5,
+        "w_credibility": 0.625,
         "w_recency": 0.25,
         "sentiment": 1,
-        "score_i": 0.125
+        "score_i": 0.1562
       },
       {
         "name": "row_116",
@@ -965,10 +965,10 @@
       {
         "name": "row_117",
         "review_timeline": "4 years ago",
-        "w_credibility": 0.5,
+        "w_credibility": 0.5556,
         "w_recency": 0.25,
         "sentiment": 1,
-        "score_i": 0.125
+        "score_i": 0.1389
       },
       {
         "name": "row_118",
@@ -981,10 +981,10 @@
       {
         "name": "row_119",
         "review_timeline": "4 years ago",
-        "w_credibility": 0.3333,
+        "w_credibility": 0.375,
         "w_recency": 0.25,
         "sentiment": 1,
-        "score_i": 0.0833
+        "score_i": 0.0938
       },
       {
         "name": "row_120",
@@ -997,26 +997,26 @@
       {
         "name": "row_121",
         "review_timeline": "4 years ago",
-        "w_credibility": 0.3333,
+        "w_credibility": 0.375,
         "w_recency": 0.25,
         "sentiment": 1,
-        "score_i": 0.0833
+        "score_i": 0.0938
       },
       {
         "name": "row_122",
         "review_timeline": "4 years ago",
-        "w_credibility": 0.6667,
+        "w_credibility": 0.7037,
         "w_recency": 0.25,
         "sentiment": 1,
-        "score_i": 0.1667
+        "score_i": 0.1759
       },
       {
         "name": "row_123",
         "review_timeline": "4 years ago",
-        "w_credibility": 0.3333,
+        "w_credibility": 0.375,
         "w_recency": 0.25,
         "sentiment": 1,
-        "score_i": 0.0833
+        "score_i": 0.0938
       },
       {
         "name": "row_124",
@@ -1029,10 +1029,10 @@
       {
         "name": "row_125",
         "review_timeline": "4 years ago",
-        "w_credibility": 0.5,
+        "w_credibility": 0.5417,
         "w_recency": 0.25,
         "sentiment": 1,
-        "score_i": 0.125
+        "score_i": 0.1354
       },
       {
         "name": "row_126",
@@ -1053,39 +1053,39 @@
       {
         "name": "row_128",
         "review_timeline": "4 years ago",
-        "w_credibility": 0.5,
+        "w_credibility": 0.5417,
         "w_recency": 0.25,
         "sentiment": 1,
-        "score_i": 0.125
+        "score_i": 0.1354
       },
       {
         "name": "row_129",
         "review_timeline": "4 years ago",
-        "w_credibility": 0.3333,
+        "w_credibility": 0.4167,
         "w_recency": 0.25,
         "sentiment": 1,
-        "score_i": 0.0833
+        "score_i": 0.1042
       },
       {
         "name": "row_130",
         "review_timeline": "5 years ago",
-        "w_credibility": 0.6667,
+        "w_credibility": 0.7963,
         "w_recency": 0.25,
         "sentiment": 1,
-        "score_i": 0.1667
+        "score_i": 0.1991
       },
       {
         "name": "row_131",
         "review_timeline": "6 years ago",
-        "w_credibility": 0.5,
+        "w_credibility": 0.5833,
         "w_recency": 0.25,
         "sentiment": 1,
-        "score_i": 0.125
+        "score_i": 0.1458
       },
       {
         "name": "row_132",
         "review_timeline": "6 years ago",
-        "w_credibility": 0.8333,
+        "w_credibility": 0.8519,
         "w_recency": 0.25,
         "sentiment": 0,
         "score_i": 0.0
@@ -1093,10 +1093,10 @@
       {
         "name": "row_133",
         "review_timeline": "6 years ago",
-        "w_credibility": 0.6667,
+        "w_credibility": 0.7037,
         "w_recency": 0.25,
         "sentiment": 1,
-        "score_i": 0.1667
+        "score_i": 0.1759
       },
       {
         "name": "row_134",
@@ -1125,7 +1125,7 @@
       {
         "name": "row_137",
         "review_timeline": "7 years ago",
-        "w_credibility": 0.6667,
+        "w_credibility": 0.6852,
         "w_recency": 0.25,
         "sentiment": 0,
         "score_i": 0.0
@@ -1133,18 +1133,18 @@
       {
         "name": "row_138",
         "review_timeline": "7 years ago",
-        "w_credibility": 0.3333,
+        "w_credibility": 0.1667,
         "w_recency": 0.25,
         "sentiment": -1,
-        "score_i": -0.0833
+        "score_i": -0.0417
       },
       {
         "name": "row_139",
         "review_timeline": "7 years ago",
-        "w_credibility": 0.6667,
+        "w_credibility": 0.7037,
         "w_recency": 0.25,
         "sentiment": -1,
-        "score_i": -0.1667
+        "score_i": -0.1759
       }
     ]
   },

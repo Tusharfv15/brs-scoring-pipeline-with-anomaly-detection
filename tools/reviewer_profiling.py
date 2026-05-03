@@ -46,7 +46,11 @@ def compute_w_credibility(is_local_guide, number_of_reviews, num_photos) -> floa
     Rules:
       num_reviews = 0          → 0.0 (hard zero)
       is_local_guide = True    → +1
-      num_reviews 15+          → +4 | 6-14 → +3 | 1-5 → +2
+      num_reviews:
+          n == 1       → 1 (one-shot accounts — discrete)
+          n in [2, 6]  → 2 + (n - 2) / 4
+          n in [6, 15] → 3 + (n - 6) / 9
+          n >= 15      → 4
       num_photos >= 1          → +1
       W = raw / 6
     """
@@ -57,12 +61,17 @@ def compute_w_credibility(is_local_guide, number_of_reviews, num_photos) -> floa
     if n_reviews == 0:
         return 0.0
 
-    raw = 0
+    raw = 0.0
     if is_local_guide is True or str(is_local_guide).strip().lower() in ("true", "1", "yes"):
         raw += 1
-    if n_reviews >= 15:   raw += 4
-    elif n_reviews >= 6:  raw += 3
-    else:                 raw += 2
+    if n_reviews == 1:
+        raw += 1
+    elif n_reviews >= 15:
+        raw += 4
+    elif n_reviews >= 6:
+        raw += 3 + (n_reviews - 6) / 9
+    else:
+        raw += 2 + (n_reviews - 2) / 4
 
     try:
         n_photos = int(num_photos)

@@ -61,7 +61,13 @@ def compute_w_credibility(is_local_guide, number_of_reviews, num_photos) -> floa
     Rules:
       - number_of_reviews = 0 or unknown → hard zero (review ignored)
       - Local Guide                       → +1
-      - number_of_reviews 15+             → +4 | 6-14 → +3 | 1-5 → +2
+      - number_of_reviews contribution:
+          n == 1       → 1                 (one-shot accounts: discrete, treated as
+                                             qualitatively distinct — only lifetime
+                                             review is this business → fake-review risk)
+          n in [2, 6]  → 2 + (n - 2) / 4   (slope +0.25 per review, anchor (2,2)→(6,3))
+          n in [6, 15] → 3 + (n - 6) / 9   (slope +0.111 per review)
+          n >= 15      → 4                 (cap)
       - num_photos >= 1                   → +1
 
     Max raw = 6
@@ -77,21 +83,22 @@ def compute_w_credibility(is_local_guide, number_of_reviews, num_photos) -> floa
         log.debug(f"    [W_CRED] number_of_reviews=0 → hard zero")
         return 0.0
 
-    raw = 0
+    raw = 0.0
 
     if is_local_guide is True or str(is_local_guide).strip().lower() in ("true", "1", "yes"):
         raw += 1
         log.debug(f"    [W_CRED] local_guide=True → +1")
 
-    if n_reviews >= 15:
-        raw += 4
-        log.debug(f"    [W_CRED] reviews={n_reviews} (≥15) → +4")
+    if n_reviews == 1:
+        w_reviews = 1.0
+    elif n_reviews >= 15:
+        w_reviews = 4.0
     elif n_reviews >= 6:
-        raw += 3
-        log.debug(f"    [W_CRED] reviews={n_reviews} (6-14) → +3")
+        w_reviews = 3.0 + (n_reviews - 6) / 9
     else:
-        raw += 2
-        log.debug(f"    [W_CRED] reviews={n_reviews} (1-5) → +2")
+        w_reviews = 2.0 + (n_reviews - 2) / 4
+    raw += w_reviews
+    log.debug(f"    [W_CRED] reviews={n_reviews} → +{w_reviews:.3f}")
 
     try:
         n_photos = int(num_photos)
@@ -103,7 +110,7 @@ def compute_w_credibility(is_local_guide, number_of_reviews, num_photos) -> floa
         log.debug(f"    [W_CRED] photos={n_photos} (≥1) → +1")
 
     w = raw / 6
-    log.debug(f"    [W_CRED] raw={raw} → W_credibility={w:.4f}")
+    log.debug(f"    [W_CRED] raw={raw:.3f} → W_credibility={w:.4f}")
     return w
 
 

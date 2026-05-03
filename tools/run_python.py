@@ -25,6 +25,7 @@ Returns:
 
 import io
 import re
+import ast
 import math
 import json
 import difflib
@@ -43,6 +44,56 @@ import sklearn
 
 CHARTS_DIR = Path("outputs/charts")
 CHARTS_DIR.mkdir(parents=True, exist_ok=True)
+
+
+# ---------------------------------------------------------------------------
+# Import stripper — silently removes import statements before exec.
+#
+# The agent is primed by its training distribution to begin Python code with
+# `import pandas as pd` etc. Blocking this at runtime (via __import__=None)
+# interrupts the agent's analysis and often causes it to abandon the tool
+# entirely. Instead, strip imports up-front via AST and leave a note in stdout
+# so the agent sees what we did and learns to omit them.
+# ---------------------------------------------------------------------------
+
+class _ImportStripper(ast.NodeTransformer):
+    def __init__(self):
+        self.stripped: list[str] = []
+
+    def visit_Import(self, node: ast.Import):
+        raw = ", ".join(a.name for a in node.names)
+        self.stripped.append(f"import {raw}")
+        return None
+
+    def visit_ImportFrom(self, node: ast.ImportFrom):
+        module = node.module or ""
+        names  = ", ".join(a.name for a in node.names)
+        self.stripped.append(f"from {module} import {names}")
+        return None
+
+
+def _strip_imports(code: str) -> tuple[object, list[str]]:
+    """
+    Parse code with AST, remove every Import / ImportFrom node (top-level or
+    nested), and return (compiled_code_object, list_of_stripped_sources).
+
+    If the code has a SyntaxError, returns (None, []) so the caller can fall
+    back to exec(code) and surface Python's real traceback to the agent.
+    """
+    try:
+        tree = ast.parse(code)
+    except SyntaxError:
+        return None, []
+
+    stripper = _ImportStripper()
+    new_tree = stripper.visit(tree)
+    ast.fix_missing_locations(new_tree)
+
+    try:
+        compiled = compile(new_tree, "<run_python>", "exec")
+    except Exception:
+        return None, []
+    return compiled, stripper.stripped
 
 
 # ---------------------------------------------------------------------------
@@ -177,6 +228,11 @@ def run_python(
     error  = None
     success = True
 
+    # Strip any import statements before exec so LLM priming (e.g. `import pandas`)
+    # doesn't abort the run. Falls back to the original code string on SyntaxError
+    # so Python's real error message reaches the agent.
+    compiled, stripped_imports = _strip_imports(code)
+
     try:
         import sys as _sys
         old_stdout = _sys.stdout
@@ -189,7 +245,10 @@ def run_python(
         except (AttributeError, OSError):
             pass  # Windows doesn't support SIGALRM
 
-        exec(code, globals_dict)
+        if compiled is not None:
+            exec(compiled, globals_dict)
+        else:
+            exec(code, globals_dict)
 
         # Cancel timeout
         try:
@@ -229,6 +288,16 @@ def run_python(
     # Detect any new charts saved
     charts_after = set(CHARTS_DIR.glob("*.png"))
     new_charts   = [str(p) for p in charts_after - charts_before]
+
+    # Prepend a notice for any imports we stripped so the agent sees what happened
+    # and stops including them in future calls.
+    if stripped_imports:
+        notice = (
+            "[sandbox] Stripped: "
+            + "; ".join(stripped_imports)
+            + " — these names are already pre-injected. Omit import statements in future calls.\n"
+        )
+        output = notice + output
 
     return {
         "reasoning": reasoning,

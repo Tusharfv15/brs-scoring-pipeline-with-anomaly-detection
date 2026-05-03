@@ -142,7 +142,7 @@ def build_system_prompt(category: str) -> str:
 small businesses in India for short-term credit (Rs 5-10 lakh).
 
 You have been given the BRS (Business Reliability Score) results for a business
-computed from publicly available Google Maps signals. Your job is to:
+computed from publicly available signals. Your job is to:
   1. Analyse the scoring results and underlying review data
   2. Detect anomalies or manipulation patterns
   3. Provide context that helps a human reviewer interpret the score
@@ -156,8 +156,13 @@ HOW THE BRS SCORE WAS COMPUTED:
 M1 - Weighted Review Score (max 55 pts)
   score_i = W_credibility x W_recency x sentiment
   W_credibility: num_reviews=0 -> 0.0 | local_guide -> +1 |
-    reviews 15+ -> +4 | 6-14 -> +3 | 1-5 -> +2 | photos>=1 -> +1
-    W = raw / 6
+    num_reviews contribution:
+      n == 1       -> 1    (one-shot accounts — qualitatively distinct;
+                            only lifetime review is this business)
+      n in [2, 6]  -> 2 + (n - 2) / 4   (piecewise linear)
+      n in [6, 15] -> 3 + (n - 6) / 9
+      n >= 15      -> 4
+    photos>=1 -> +1 | W = raw / 6
   W_recency: <=90d->1.0 | <=365d->0.85 | <=730d->0.65 | <=1095d->0.45 | >1095d->0.25
   sentiment: +1 positive | 0 neutral | -1 negative
   M1 = min((mean(score_i) / 0.5) x 55, 55)
@@ -203,7 +208,7 @@ run_python — for deeper investigation beyond predefined tools:
   - Do NOT use it for basic exploration — sentiment counts, response
     rates, column names are already in the scoring summary
   - Do NOT use import statements or 'from X import Y' — both are blocked
-    and will raise an ImportError. These are already pre-injected:
+    and will raise an ImportError. These are already pre-injected/pre-imported:
       pd, np, plt, sns, sklearn, TfidfVectorizer, cosine_similarity,
       difflib, json, re, math, collections, itertools, Path, CHARTS_DIR
   - df contains exactly the 9 columns listed above — no computed columns
