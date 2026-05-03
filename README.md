@@ -161,12 +161,16 @@ python sentiment_scorer.py excel/<stem>.xlsx --force    # re-score even if colum
 | `+1` | Positive — reviewer is satisfied, praises the business |
 | `0` | Neutral, mixed, unclear, or off-topic |
 | `-1` | Negative — reviewer is dissatisfied, mentions problems |
+<img width="1398" height="361" alt="image" src="https://github.com/user-attachments/assets/14bab311-26ed-47fd-98bc-490b4a535afa" />
+
 
 The business category from `places_json/` is passed to the model as context — it affects how ambiguous phrases like "decent prices" are scored relative to category norms.
 
 ---
 
 ## Stage 3 — BRS Scoring (`scorer.py`)
+<img width="2967" height="2498" alt="image" src="https://github.com/user-attachments/assets/90c5c25d-0f91-482d-b09b-f80ca447e6fe" />
+
 
 Reads the cleaned, sentiment-scored Excel and the Places API JSON, computes four scoring modules, and writes a score JSON to `outputs/`.
 
@@ -247,6 +251,9 @@ Website reachability is checked live via HTTP GET:
 | Phone number present | +3 |
 | Address present | +2 |
 
+<img width="1604" height="603" alt="image" src="https://github.com/user-attachments/assets/fdf6a694-0e41-4651-a2f5-41d6a3cef2a6" />
+
+
 ### Output — `outputs/<stem>_score.json`
 
 Contains the final score, full M1–M4 breakdown, detailed sub-scores, and review stats (sentiment counts + timeline buckets). This file is the direct input to Stage 4.
@@ -254,6 +261,7 @@ Contains the final score, full M1–M4 breakdown, detailed sub-scores, and revie
 ---
 
 ## Stage 4 — Anomaly Detection (`anomaly_agent.py`)
+<img width="3603" height="2936" alt="image" src="https://github.com/user-attachments/assets/0c387927-8acf-4509-ae6a-253d88f19f33" />
 
 Runs an LLM agent (OpenAI function calling) that reasons over the score JSON and the raw review DataFrame, calls analysis tools in a loop, and produces a structured credit risk narrative with an HTML report.
 
@@ -315,6 +323,8 @@ The agent writes and executes arbitrary Python code against the live data. Avail
 Pre-injected libraries: `pd`, `np`, `plt`, `sns`, `sklearn`, `TfidfVectorizer`, `cosine_similarity`, `difflib`, `json`, `re`, `math`, `collections`, `itertools`, `Path`.
 
 `import` and `from X import Y` are both blocked. stdout is captured and returned to the agent, capped at 8,000 characters.
+<img width="1613" height="337" alt="image" src="https://github.com/user-attachments/assets/6f92d5a1-ca7e-4923-9ae3-3d1580fa82e4" />
+
 
 ### Output Files
 
